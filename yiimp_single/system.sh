@@ -240,7 +240,7 @@ fi
 
 echo
 echo -e "$CYAN =>  Clone Yiimp Repo <= $COL_RESET"
-hide_output sudo git clone https://github.com/Kudaraidee/yiimp.git $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
+hide_output sudo git clone https://github.com/Filnet82/kudaraidee.yiimp.31.10.23 $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
 if [[ ("$CoinPort" == "yes") ]]; then
 	cd $STORAGE_ROOT/yiimp/yiimp_setup/yiimp
 	sudo git fetch

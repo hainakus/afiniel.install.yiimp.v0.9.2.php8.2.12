@@ -11,6 +11,7 @@ source /etc/functions.sh
 source /etc/yiimpool.conf
 source $STORAGE_ROOT/yiimp/.yiimp.conf
 source $HOME/yiimp_install_script/yiimp_single/.wireguard.install.cnf
+YiiMPRepo="https://github.com/Filnet82/kudaraidee.yiimp.31.10.23.git"
 
 set -eu -o pipefail
 

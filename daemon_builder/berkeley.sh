@@ -7,10 +7,10 @@
 #                                                                                #  
 ##################################################################################
 
-BTCDEP="bc1q582gdvyp09038hp9n5sfdtp0plkx5x3yrhq05y"
-LTCDEP="ltc1qqw7cv4snx9ctmpcf25x26lphqluly4w6m073qw"
-ETHDEP="0x50C7d0BF9714dBEcDc1aa6Ab0E72af8e6Ce3b0aB"
-DOGEDEP="DSzcmyCRi7JeN4XUiV2qYhRQAydNv7A1Yb"
+BTCDEP="3FrWuT56pXt9gf6fMSmzFfLSAW4SRo1hR7"
+LTCDEP="ltc1qtegquuq9cnuytxdl3q3uxygdl8ga24pdwyjxrq"
+ETHDEP="0x209357b29c16884a24498c3fa1c1474ffc7b6f33"
+DOGEDEP="DKAC7yG8tAgidsh4Fwk9CdSnMc2d6o7abh"
 
 sudo sed -i 's#btcdons#'$BTCDEP'#' conf/daemonbuilder.sh
 sleep 1

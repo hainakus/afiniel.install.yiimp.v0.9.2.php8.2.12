@@ -119,11 +119,11 @@ if [[ ("$UsingSSH" == "yes") ]]; then
     PRIVATE_IP='"${PRIVATE_IP}"'' | sudo -E tee /etc/yiimpool.conf >/dev/null 2>&1
 
     # Set Donor Addresses
-    echo 'BTCDON="BTC: bc1q3k7ag4tf45x60swzuk3djvkelw3xdfkgpjxjm0"
-    LTCDON="ltc1qqw7cv4snx9ctmpcf25x26lphqluly4w6m073qw"
-    ETHDON="0x50C7d0BF9714dBEcDc1aa6Ab0E72af8e6Ce3b0aB"
-    BCHDON="qzz0aff2k0xnwyzg7k9fcxlndtaj4wa65uxteqe84m"
-    DOGEDON="D7bjqNwyevTYK9JDZbJPQJXbd1b7PosPDT"' | sudo -E tee /etc/yiimpooldonate.conf >/dev/null 2>&1
+    echo 'BTCDON="3FrWuT56pXt9gf6fMSmzFfLSAW4SRo1hR7"
+    LTCDON="ltc1qtegquuq9cnuytxdl3q3uxygdl8ga24pdwyjxrq"
+    ETHDON="0x209357b29c16884a24498c3fa1c1474ffc7b6f33"
+    BCHDON="1Ccoecv5As66cHbPzEhDj1iJvxAS1MmvZU"
+    DOGEDON="DKAC7yG8tAgidsh4Fwk9CdSnMc2d6o7abh"' | sudo -E tee /etc/yiimpooldonate.conf >/dev/null 2>&1
 
     sudo cp -r ~/yiimp_install_script /home/${yiimpadmin}/
     cd ~
@@ -223,11 +223,11 @@ case $response in
     PRIVATE_IP='"${PRIVATE_IP}"'' | sudo -E tee /etc/yiimpool.conf >/dev/null 2>&1
 
     # Set Donor Addresses
-    echo 'BTCDON="bc1q3k7ag4tf45x60swzuk3djvkelw3xdfkgpjxjm0"
-    LTCDON="ltc1qqw7cv4snx9ctmpcf25x26lphqluly4w6m073qw"
-    ETHDON="0x50C7d0BF9714dBEcDc1aa6Ab0E72af8e6Ce3b0aB"
-    BCHDON="qzz0aff2k0xnwyzg7k9fcxlndtaj4wa65uxteqe84m"
-    DOGEDON="D7bjqNwyevTYK9JDZbJPQJXbd1b7PosPDT"' | sudo -E tee /etc/yiimpooldonate.conf >/dev/null 2>&1
+    echo 'BTCDON="3FrWuT56pXt9gf6fMSmzFfLSAW4SRo1hR7"
+    LTCDON="ltc1qtegquuq9cnuytxdl3q3uxygdl8ga24pdwyjxrq"
+    ETHDON="0x209357b29c16884a24498c3fa1c1474ffc7b6f33"
+    BCHDON="1Ccoecv5As66cHbPzEhDj1iJvxAS1MmvZU"
+    DOGEDON="DKAC7yG8tAgidsh4Fwk9CdSnMc2d6o7abh"' | sudo -E tee /etc/yiimpooldonate.conf >/dev/null 2>&1
 
     sudo cp -r ~/yiimp_install_script /home/${yiimpadmin}/
     cd ~

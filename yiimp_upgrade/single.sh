@@ -1,7 +1,7 @@
 #####################################################
 # Created by afiniel for crypto use...
 #####################################################
-
+YiiMPRepo="https://github.com/Filnet82/kudaraidee.yiimp.31.10.23.git"
 source /etc/functions.sh
 source /etc/yiimpool.conf
 source $STORAGE_ROOT/yiimp/.yiimp.conf
